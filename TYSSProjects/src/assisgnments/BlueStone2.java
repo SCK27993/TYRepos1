@@ -15,7 +15,7 @@ public class BlueStone2 {
 	  public void test() {*/
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);//hgfhtgf
 		driver.manage().window().maximize();
 		driver.get("https://www.bluestone.com");
 		Actions action = new Actions(driver);
